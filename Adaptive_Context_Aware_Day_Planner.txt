@@ -1,0 +1,142 @@
+
+ADAPTIVE CONTEXT-AWARE DAY PLANNER
+=================================
+
+PROJECT OVERVIEW
+----------------
+The Adaptive Context-Aware Day Planner is a smart, real-world productivity application
+that helps users plan and execute their day realistically.
+
+Unlike traditional to-do or calendar applications, this system dynamically adapts a
+user’s schedule based on time availability, energy levels, task priority, and real-time
+changes, providing a more human and flexible approach to daily planning.
+
+The application is implemented as a full-stack MERN application with a React Native
+mobile companion, supporting real-time updates, analytics, and offline usage.
+
+
+
+KEY OBJECTIVES
+--------------
+• Help users plan days that adapt to real-life changes
+• Reduce unrealistic task overload
+• Provide insights into time usage and productivity patterns
+• Deliver a practical, everyday-use application with strong engineering depth
+
+
+
+CORE FEATURES
+-------------
+
+1. Context-Based Planning
+   - Days are divided into context blocks such as Morning Routine, Focus Work, Commute,
+     and Evening.
+   - Tasks belong to contexts instead of flat task lists.
+   - Each context defines time limits, energy requirements, and flexibility rules.
+
+2. Dynamic Day Rebalancing
+   - Automatically adjusts schedules when tasks overrun.
+   - Reschedules low-priority tasks intelligently.
+   - Updates the day timeline in real time.
+
+3. Energy-Aware Task Allocation
+   - Users define personal energy levels (High / Medium / Low).
+   - Tasks are matched to appropriate energy windows.
+   - Prevents demanding tasks during low-energy periods.
+
+4. Reality Mode
+   - Displays only tasks that can realistically be done at the current moment.
+   - Filters tasks based on available time, energy level, and context.
+
+5. Daily Retrospective and Insights
+   - End-of-day summary comparing planned vs completed tasks.
+   - Context-wise time analysis.
+   - Weekly and monthly productivity insights.
+
+6. Offline-First Mobile Companion
+   - Quick task and idea capture on mobile.
+   - Offline support with automatic sync when online.
+   - Lightweight daily planner interface.
+
+7. Reports and Notifications
+   - Daily or weekly email summaries.
+   - Exportable productivity reports in PDF or CSV format.
+   - Gentle reminders instead of intrusive notifications.
+
+
+
+TECHNOLOGIES USED
+-----------------
+
+MongoDB
+• Structured data models for users, days, contexts, tasks, and activity logs
+• Aggregation pipelines for analytics and insights
+• Change Streams for real-time schedule updates
+• Sorting, limiting, and schema validation
+• MongoDB Atlas for cloud storage and replication (conceptual)
+
+Node.js and Express.js
+• RESTful API architecture
+• Middleware for authentication, planner logic, and error handling
+• Session and cookie management
+• Event-driven logic using Node Event Emitters
+• Email notifications and scheduled jobs
+• File handling for report exports
+• Modular directory structure
+
+React.js (Web Application)
+• Component-based UI architecture
+• Redux for global state management
+• Dynamic timeline-based planner interface
+• Routing for daily, weekly, and analytics views
+• Real-time UI updates
+
+React Native (Mobile Application)
+• Cross-platform mobile application
+• Offline task creation and synchronization
+• Push notifications and reminders
+• Shared backend with the web application
+
+
+
+HOW THIS APP IS DIFFERENT
+-------------------------
+
+Traditional planners:
+• Use static task lists
+• Rely on fixed schedules
+• Ignore user energy levels
+• Require manual reviews
+• Focus only on time
+
+Adaptive Context-Aware Day Planner:
+• Uses context-based dynamic planning
+• Rebalances schedules in real time
+• Matches tasks to energy levels
+• Provides automated retrospectives
+• Focuses on realistic daily execution
+
+
+
+RESUME-READY DESCRIPTION
+------------------------
+Designed and developed a full-stack context-aware day planning application that
+dynamically adapts daily schedules based on real-time constraints, energy levels,
+and task priorities using the MERN stack and React Native.
+
+
+
+WHY THIS PROJECT STANDS OUT
+---------------------------
+• Real-world, everyday usefulness
+• Avoids typical to-do application design
+• Demonstrates advanced backend concepts
+• Covers most topics from the MERN and React Native syllabus
+• Suitable for academic evaluation, interviews, and real deployment
+
+=========================================================
+
+MY PLANS
+---------
+Make a Kanban
+Auth OTP via sendgrid
